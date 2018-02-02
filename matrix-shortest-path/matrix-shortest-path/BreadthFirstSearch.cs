@@ -1,5 +1,6 @@
 ﻿namespace MatrixShortestPath
 {
+    using System;
     using System.Collections.Generic;
     using System.Linq;
 
@@ -78,7 +79,7 @@
                 }
             }
 
-            return -1;
+            throw new Exception("Path to destination not found!");
         }
     }
 }
